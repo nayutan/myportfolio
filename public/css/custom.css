@@ -20,3 +20,12 @@
   border: 5px #aaa;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 3)
 }
+
+.top-bgi{
+  background: url("../img/work4.jpg") no-repeat center;
+  border-radius: 5px;
+}
+
+.listStyle li{
+  list-style-type: none
+}

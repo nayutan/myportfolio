@@ -5,11 +5,12 @@
 @extends('layouts.my')
 @section('title', 'demo-laravel-crud')
 @section('content')
-<div class="container">
 
+<div class="container">
     <h1>{{ $title }}</h1>
+
   <div class="row mb-4">
-    <div class="col-md-6 col-md-offset-2">
+    <div class="skill col-12">
     ☆：少し触ったことがあるレベル<br>
     ☆☆：基本的なことは大丈夫と言える<br>
     ☆☆☆：業務として問題ないと自信を持って言える<br>
@@ -19,7 +20,7 @@
 
     <h2>{{ __('スキルのグラフ') }}</h2>
     <div class="row skill">
-      <div class="col-md-5 col-md-offset-2">
+      <div class="col-md-5">
         <canvas id="graph"></canvas>
         <script>
         var drawGraph = function(data){
@@ -73,7 +74,7 @@
         drawGraph(data);
         </script>
       </div>
-      <div class="col-md-4 col-md-offset-1">
+      <div class="col-md-3">
   HTML：☆☆<br>
   CSS：☆☆<br>
   Ruby：☆<br>
@@ -82,12 +83,38 @@
   Laravel：☆<br>
   MySQL：☆☆<br>
   Unity：☆<br>
-<br>
+  <br>
   リスクマネジメント：☆☆☆<br>
   チームマネジメント：☆☆☆<br>
   スケジュール管理：☆☆☆<br>
       </div>
+      <div class="col-md-4">
+        その他なんか書くことアレばこのへんで補足的な
+      </div>
     </div>
+
+    <h2 class="mt-4">{{ __('その他のスキル') }}</h2>
+    <div class="row">
+      <div class="col-2 skill1">
+        コンシューマー
+      </div>
+      <div class="col-2 skill2">
+        モバイルアプリ
+      </div>
+      <div class="col-2 skill1">
+        アーケード
+      </div>
+      <div class="col-2 skill2">
+        VR
+      </div>
+      <div class="col-2 skill1">
+        Webサイト
+      </div>
+      <div class="col-2 skill2">
+        なんか
+      </div>
+    </div>
+
 
     <h2 class="mt-4">{{ __('これから手に入れたいスキル') }}</h2>
     <div class="row">
