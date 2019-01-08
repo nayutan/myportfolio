@@ -62,6 +62,7 @@
                     <th>{{ __('No') }}</th>
                     <th>{{ __('タイトル') }}</th>
                     <th>{{ __('本文') }}</th>
+                    <th>{{ __('投稿時刻') }}</th>
                 </tr>
             </thead>
             <tbody>
@@ -70,6 +71,7 @@
                     <td>{{ $post->postID }}</td>
                     <td style="color:{{ $post->postColor }};">{{ $post->postTitle }}</td>
                     <td style="color:{{ $post->postColor }};">{{ $post->postText }}</td>
+                    <td>{{ $post->created_at }}</td>
                  </tr>
             @endforeach
             </tbody>

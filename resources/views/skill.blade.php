@@ -21,7 +21,7 @@
     <h2>{{ __('スキルのグラフ') }}</h2>
     <div class="row skill">
       <div class="col-md-5">
-        <canvas id="graph"></canvas>
+        <canvas id="graph" class="mt-4"></canvas>
         <script>
         var drawGraph = function(data){
             var ctx = document.getElementById('graph').getContext('2d');
@@ -45,23 +45,21 @@
 
                 // オプション設定
                 options: {
-                    // レスポンシブ指定
-                    responsive: true,
+                  responsive: true,
+                  legend: {
+                    display: false
+                  },
                     //スケールの設定
-                    scale: {
-                        pointLabels: {
-                            fontSize: 12,
-                        },
-                        ticks: {
+                  scale: {
+                    ticks: {
                             // 目盛り値のカスタマイズ
                             stepSize: 1,
                             // 最小値の値を0指定
                             beginAtZero:true,
-                            min: 0,
-                            // 最大値を指定
                             max: 4,
-                        }
+                            min: 0
                     }
+                  }
                 }
             }
 
@@ -97,21 +95,27 @@
     <div class="row">
       <div class="col-2 skill1">
         コンシューマー
+        <img src="img/game.png" class="skill-img">
       </div>
       <div class="col-2 skill2">
         モバイルアプリ
+        <img src="img/mobile.png" class="skill-img">
       </div>
       <div class="col-2 skill1">
         アーケード
+        <img src="img/racegame.png" class="skill-img">
       </div>
       <div class="col-2 skill2">
         VR
+        <img src="img/vr.png" class="skill-img">
       </div>
       <div class="col-2 skill1">
         Webサイト
+        <img src="img/website.png" class="skill-img">
       </div>
       <div class="col-2 skill2">
         なんか
+        <img src="img/work4.jpg" class="skill-img">
       </div>
     </div>
 
@@ -128,7 +132,7 @@
         AWSを用いた構築スキルを得たい
       </div>
       <div class="col-6 skill1">
-        自身のアイデアでサービスを1つ作って公開したい
+        自身のアイデアでサービスを作って公開したい
       </div>
     </div>
 </div>

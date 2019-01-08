@@ -15,7 +15,7 @@
       <div class="col-5">
         <ul class="listStyle">
             <li>
-              名前：淀野　那佑太
+              名前：淀野 那佑太
             </li>
             <li>
               生年月日：1988年4月25日生まれ(30歳)
