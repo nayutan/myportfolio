@@ -47,11 +47,11 @@
                             {{ __('制作物') }}
                           </a>
                         </li>
-                        <li class="nav-item">
+                        <!-- <li class="nav-item">
                           <a class="nav-link" href="show">
                             {{ __('掲示板') }}
                           </a>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
