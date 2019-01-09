@@ -28,3 +28,9 @@ Route::get('/skill', function () {
 Route::get('/product', function () {
     return view('product');
 });
+
+Route::get('/show', function(){
+    return view('show');
+});
+
+Route::resource('show','Postcontroller');

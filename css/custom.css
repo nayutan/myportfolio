@@ -20,3 +20,19 @@
   border: 5px #aaa;
   box-shadow: 10px 10px 5px rgba(0, 0, 0, 3)
 }
+
+.top-bgi{
+  background: url("../img/nayu.png") no-repeat center;
+  border-radius: 5px;
+  height: 157px;
+}
+
+.listStyle li{
+  list-style-type: none
+}
+
+.skill-img{
+  width:100%;
+  max-width: 100%;
+  height: auto;
+}
