@@ -14,7 +14,7 @@
     ☆：少し触ったことがあるレベル<br>
     ☆☆：基本的なことは大丈夫と言える<br>
     ☆☆☆：業務として問題ないと自信を持って言える<br>
-    ☆☆☆☆：思い通りに作成や進行ができる<br>
+    ☆☆☆☆：思うがままに作成や進行ができる<br>
     </div>
   </div>
 
@@ -67,8 +67,8 @@
         };
 
         // ラベルの設定
-        var data = [['HTML', 'CSS', 'Ruby','Rails', 'PHP', 'Laravel',"MySQL","Unity","リスクマネジメント","チームマネジメント","スケジュール管理"],
-                    [2, 2, 1, 1, 2, 2, 2, 1, 3, 3, 3]]
+        var data = [['HTML', 'CSS', 'Ruby','Rails', 'PHP', 'Laravel',"MySQL","リスクマネジメント","チームマネジメント","スケジュール管理","コミュニケーション"],
+                    [2, 2, 1, 1, 2, 2, 2, 3, 3, 3, 3]]
         drawGraph(data);
         </script>
       </div>
@@ -80,20 +80,27 @@
   PHP：☆☆<br>
   Laravel：☆<br>
   MySQL：☆☆<br>
-  Unity：☆<br>
   <br>
   リスクマネジメント：☆☆☆<br>
   チームマネジメント：☆☆☆<br>
   スケジュール管理：☆☆☆<br>
+  コミュニケーション：☆☆☆
       </div>
       <div class="col-md-4">
-        その他なんか書くことアレばこのへんで補足的な
+        その他
+        Photoshop(CS3)：☆☆<br>
+        Illustrator：☆<br>
+        Unity：☆<br>
+        Javascript：☆<br>
+        Excel：☆☆☆<br>
+        PowerPoint：☆☆☆<br>
+
       </div>
     </div>
 
-    <h2 class="mt-4">{{ __('その他のスキル') }}</h2>
+    <h2 class="mt-4">{{ __('その他のスキル・経験') }}</h2>
     <div class="row">
-      <div class="col-2 skill1">
+      <div class="col-2 offset-md-1 skill1">
         コンシューマー
         <img src="img/game.png" class="skill-img">
       </div>
@@ -113,10 +120,7 @@
         Webサイト
         <img src="img/website.png" class="skill-img">
       </div>
-      <div class="col-2 skill2">
-        なんか
-        <img src="img/work4.jpg" class="skill-img">
-      </div>
+      <p class="mt-3 offset-md-1">上記のような分野で、ゲームやWebサイト等のプロダクトに対する品質管理を担ってきました。</p>
     </div>
 
 

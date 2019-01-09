@@ -62,5 +62,32 @@
           IgA腎症の経験や、Laravelの独学中に学んだことを些細でもアウトプットしようという試みです。
         </div>
     </div>
+    <h1 class="mt-4">制作</h1>
+      <p>Tシャツデザイン(クリックで販売ページへ)</p>
+    <div class="row mt-1">
+      <div class="col-4 offset-md-2 skill2">
+        <a href="https://www.ttrinity.jp/product/2973153#47"><img src="img/product001.jpg" class="skill-img"></a>
+      </div>
+      <div class="col-4 skill2">
+        <a href="https://www.ttrinity.jp/product/4148147#1"><img src="img/product002.jpg" class="skill-img"></a>
+      </div>
+      <div class="col-4 skill2">
+        <a href="https://www.ttrinity.jp/product/4164224#19"><img src="img/product003.jpg" class="skill-img"></a>
+      </div>
+      <div class="col-4 skill2">
+        <a href="https://www.ttrinity.jp/product/4164286#4"><img src="img/product004.jpg" class="skill-img"></a>
+      </div>
+      <div class="col-4 skill2">
+        <a href="https://www.ttrinity.jp/product/2393142#1"><img src="img/product005.jpg" class="skill-img"></a>
+      </div>
+    </div>
+    <div class="row mt-2">
+      <p class="mt-1">自作のPC用壁紙</p>
+      <div class="col-10 offset-md-1 skill2">
+        <img src="img/Re.jpg" class="skill-img">
+      </div>
+
+    </div>
+
 </div>
 @endsection
